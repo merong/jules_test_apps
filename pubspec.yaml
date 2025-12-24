@@ -1,0 +1,40 @@
+name: gachbom_player
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.1
+
+  # Audio
+  just_audio: ^0.9.36
+  audio_service: ^0.18.12
+  rxdart: ^0.27.7
+
+  # Networking
+  dio: ^5.4.0
+  http: ^1.2.0
+
+  # Storage & Permissions
+  path_provider: ^2.1.2
+  permission_handler: ^11.3.0
+  shared_preferences: ^2.2.2
+
+  # UI
+  cupertino_icons: ^1.0.6
+  cached_network_image: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
